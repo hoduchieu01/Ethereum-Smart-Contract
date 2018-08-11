@@ -4,7 +4,7 @@ contract Greeter  {
     string public yourName;  // data
     
     /* This runs when the contract is executed */
-   function Greeter() public {
+   function greeter() public {
         yourName = "World";
     } 
     
