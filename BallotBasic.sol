@@ -17,7 +17,7 @@ contract Ballot {
     
 
     /// Create a new ballot with $(_numProposals) different proposals.
-    function Ballot(uint8 _numProposals) public {
+    function ballot(uint8 _numProposals) public {
         chairperson = msg.sender;
         voters[chairperson].weight = 2;
         proposals.length = _numProposals; 
